@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ubuntu;
+}
+
+.container {
+  width: 800px;
+  max-width: 800px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  margin: 1.4em 0;
+}
+
+.search {
+  width: 250px;
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 20px;
+  background: none;
+  border: 1px solid black;
+  font-size: 17px;
+  margin: 0 10px;
+}
+
+.button {
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 30px;
+  padding: 0.8em 1.8em;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+main {
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0.65em;
+}
+
+main h3,
+main h2,
+main p {
+  margin: 0.3em 0;
+}
+
+main a {
+  color: black;
+}
